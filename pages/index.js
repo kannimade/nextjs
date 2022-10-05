@@ -19,7 +19,7 @@ export default function Home() {
         <p className={styles.description}>
           我的服务器被一个孤儿DDOS打到自动销毁了{' '}
         </p>
-<p><code className={styles.code}>祝他早日登天，博客恢复待定！</code></p>
+<code className={styles.code}>祝他早日登天，博客恢复待定！</code>
         <div className={styles.grid}>
           <a href="https://loc.cc" className={styles.card}>
             <h2>非主流论坛</h2>
