@@ -13,14 +13,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://bo.ke">BO.KE</a>
+          欢迎访问 <a href="https://bo.ke">BO.KE</a>
         </h1>
 
         <p className={styles.description}>
-          服务器被孤儿攻击打到自动销毁了{' '}
-          <code className={styles.code}>祝他早日登天</code>
+          我的服务器被一个孤儿DDOS打到自动销毁了{' '}
         </p>
-
+<p><code className={styles.code}>祝他早日登天，博客恢复待定！</code></p>
         <div className={styles.grid}>
           <a href="https://loc.cc" className={styles.card}>
             <h2>非主流论坛</h2>
