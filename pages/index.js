@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          欢迎访问 <a href="https://bo.ke">BO.KE</a>
+          <a href="https://bo.ke">BO.KE</a>
         </h1>
 
         <p className={styles.description}>
@@ -30,17 +30,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://bo.ke"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            BO.KE
-          </span>
-        </a>
-      </footer>
+      
     </div>
   )
 }
